@@ -2,7 +2,7 @@
 
 namespace Modules\Backend\Controllers;
 
-class IndexController extends ControllerBase
+class IndexController extends XController
 {
 
     public function indexAction()

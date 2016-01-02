@@ -2,13 +2,12 @@
 
 namespace Modules\Frontend\Controllers;
 
-
+use Modules\Backend\Controllers\XController;
 use Phalcon\Mvc\View;
 use Modules\Frontend\Models\Users;
 
-class IndexController extends ControllerBase
+class IndexController extends XController
 {
-
     public function indexAction()
     {
         $users = Users::find(

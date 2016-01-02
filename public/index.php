@@ -10,6 +10,8 @@ try {
     // Define db name environment
      defined('DB_NAME') || define('DB_NAME', (getenv('DB_NAME') ? getenv('DB_NAME') : 'test'));
 
+    defined('BASE_URL') || define('BASE_URL', (getenv('BASE_URL') ? getenv('BASE_URL') : ''));
+
     /**
      * The FactoryDefault Dependency Injector automatically register the right services providing a full stack framework
      */
@@ -54,7 +56,7 @@ try {
      */
     $di->set('url', function () {
         $url = new \Phalcon\Mvc\Url();
-        $url->setBaseUri('BASEURL');
+        $url->setBaseUri(BASE_URL);
         return $url;
     });
 
