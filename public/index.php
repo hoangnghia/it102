@@ -3,10 +3,10 @@
 error_reporting(E_ALL);
 
 try {
+
     // Define db name environment
-     defined('DB_NAME') || define('DB_NAME', (getenv('DB_NAME') ?
-        getenv('DB_NAME') :
-        'test'));
+     defined('DB_NAME') || define('DB_NAME', (getenv('DB_NAME') ? getenv('DB_NAME') : 'test'));
+
     /**
      * The FactoryDefault Dependency Injector automatically register the right services providing a full stack framework
      */
