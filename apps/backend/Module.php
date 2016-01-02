@@ -46,7 +46,7 @@ class Module
 			$view = new View();
 
 			$view->setViewsDir(__DIR__ . '/views/');
-			$view->setLayoutsDir('../../common/layouts/');
+			$view->setLayoutsDir('../../common/layouts/backend/');
 			$view->setTemplateAfter('main');
 
 			return $view;
