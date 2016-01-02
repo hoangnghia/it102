@@ -3,6 +3,9 @@
 error_reporting(E_ALL);
 
 try {
+    defined('APP_PATH') || define('APP_PATH', dirname(__FILE__) . '../apps');
+
+    defined('WEB_PATH') || define('WEB_PATH', dirname(__FILE__));
 
     // Define db name environment
      defined('DB_NAME') || define('DB_NAME', (getenv('DB_NAME') ? getenv('DB_NAME') : 'test'));
