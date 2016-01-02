@@ -1,0 +1,205 @@
+@charset 'utf-8';
+
+.importantRule { margin-left: 270px !important; }
+.defn-lead { font-size: 40px !important; left:30px;}
+
+.defn { margin-top: 30px; font-size: 20px !important; }
+.defn h3 { line-height: 1.5; }
+.technology-icn { margin-top:20px !important; }
+.technology-icn > li { display: inline-block; margin-left:15px !important; margin-right:15px !important; text-align: center; vertical-align: middle; }
+.technology-icn > li:first-child { margin-left: 0; }
+.ic-js { background: url(../images/logos/js.jpg) no-repeat 0 0; width: 68px; height: 68px; }
+.ic-mongo { background: url(../images/logos/mongo-db.png) no-repeat 0 0; width: 250px; height: 67px; }
+.ic-node { background: url(../images/logos/node.png) no-repeat 0 0; width: 189px; height: 53px; }
+.ic-angular { background: url(../images/logos/angular.png) no-repeat 0 0; width: 298px; height:70px; }
+.ic-amazon { background: url(../images/logos/amazon.png) no-repeat 0 0; width: 150px; height: 51px; }
+.ic-ps { background: url(../images/logos/photoshop.png) no-repeat 0 0; width: 72px; height: 71px; }
+
+.quick-contact { position: fixed; right: -320px; top: 170px; z-index: 10001; background: rgba(193, 193, 193, 0.9); border-bottom-left-radius: 3px; border-top-right-radius: 3px; padding: 15px 20px; width: 320px; }
+.quick-form { position: relative; }
+.show-me { position: absolute; top: -15px; left: -70px; width: 50px; height: 50px; background: #1474e0; text-align: center; border-top-left-radius: 3px; border-bottom-left-radius: 3px; cursor: pointer; transition: background ease 300ms; }
+.show-me > .fa { margin-top: 10px; color: #f3f3f3; }
+.change-me { background: #cbcbcb; }
+.turn-me { transform: rotate(180deg); }
+.quick-contact input, .quick-contact textarea { display: block; width: 100%; margin-bottom: 15px; height: 40px; background: #f3f3f3; border: 1px solid #d0d0d0; border-radius: 2px; padding: 0 5px; }
+.quick-contact textarea { height: 80px; resize: vertical; }
+.quick-contact h1 { font-size: 18px; margin-top: 0; color: #545454; margin-bottom: 20px; text-align: center; text-transform: uppercase; }
+.quick-contact button { background: #545454; color: #f3f3f3; border: none; border-radius: 2px; padding: 5px 10px; }
+.quick-contact input::-webkit-input-placeholder { color: #848484; }
+.quick-contact input::-moz-placeholder { color: #545454; }
+.quick-contact input:-moz-placeholder { color: #545454; }
+.quick-contact input:-ms-input-placeholder { color: #848484; }
+
+.career-points { margin-bottom:15px; list-style-position: inside; }
+.pagetitle .content-banner, .content-banner { height: 150px; }
+.content-banner .parallax-content { padding: 40px 0; }
+
+#moving-text { width: 100%; margin-top:80px;background-color: #fff; margin-bottom:5px; margin-top: 80px; padding-bottom:8px; padding-top: 15px;
+    position: absolute; z-index: 100; font-size: 18px;}
+
+.contact-form .service select { background:transparent; }
+.contact-form  .service option { background:rgba(0,0,0, 0.5) !important;}
+.social { margin: 0 40px 18px 0;}
+.h-width { color: #ffffff; text-align: center; font-weight:600;}
+/*.tp-leftarrow.tparrows.default.hidearrows { top:63% !important; position:relative; }*/
+
+
+.footer-brdr { border-top:1px solid #f3f3f3;}
+.heading-border { height:33px; width:10%; }
+.bld-txt { color:#ffffff; font-weight:600; left: 25px !important; width:60%; }
+.str-clr { color: #4a5157; font-size: 18px; font-weight: 600; margin-left: 15px; margin-right:3px; }
+.ifone6 {height: 480px !important; margin-left: 630px !important; margin-top: -61%; width: 235px !important; }
+.ifone62 {height: 533px !important; margin-left: 10px !important; margin-top: -45%; width: 1400px !important; }
+
+.smal-8 { width:30px; display: inline-block; margin-top:-5px; margin-left: 0px; margin-right: 9px; }
+.mobile-ifone6 { left:16% !important;}
+.larg-8 { width:35px; height:35px; display: inline-block; margin-top: -5px; margin-left:-7px; margin-right: 9px;  }
+.contct { top: 80% !important; }
+
+
+.subject-new > input { width: 32% !important; }
+.subject-new > img { margin-top: 35PX ; margin-left: 15px; }
+.sendd { width:20%; }
+.othercontacts .social { padding-bottom:35px; padding-top:25px; }
+
+
+
+/* career page */
+.status-box {margin-top: 15%;}
+.fom-div { height: 70px;}
+.sbmt {margin-right:3%;}
+.sbmt-button { margin-top:10px;}
+.enqury-button { background-color:#1886f4; color: #fff; }
+.enter-text {margin-top:6px;}
+.status {margin-bottom:15px;}
+.enqury-button:hover , .enqury-button:focus { color: #fff;background-color:#33a6ff;}
+
+/* career Database page */
+.career-bd h3 {text-align:center;}
+.databse-contener {border: 1px solid;margin: 10% auto 0; padding: 20px; width: 50%;}
+#result > p {color: #414a50; font-size: 20px;}
+
+
+/* hr-admin Page */
+.hr-filling.form {margin: 100px auto; width: 80%;}
+.h-widths { color: #ffffff; font-size: 20px !important; font-weight: 600; line-height: 1.3 !important; margin-top: -11px !important; text-align: center; }
+.tp-caption.lfb.lern.start { left: 416px !important; top:480px !important; }
+.mobile-ifone6 { top: 32% !important; }
+
+/* linkites slider */
+.project-slider { padding-top: 132px; }
+
+
+
+@media screen and (min-width:320px) and (max-width:480px) {
+
+    .status-box { margin-top:35%; }
+    .modal-content { padding-bottom: 50px; }
+    .heading-border { height: 8%; width: 20%; }
+    .quick-contact { right: -270px; top: 86px; width: 270px; }
+    .defn-lead { font-size: 16px !important; text-align: center !important; top: 195px !important; }
+    .bld-txt { font-size:14px !important; color:#ffffff; line-height: 1.5 !important;}
+    .h-width { font-size: 11px !important; line-height: 1.7 !important; margin-top: 0% !important; white-space: initial;
+        width: 200px; word-wrap: initial; }
+    .h-widths { font-size: 8.5px !important; line-height: 1.3 !important; margin-top:0% !important; white-space: initial;
+        word-wrap: initial;	color: #ffffff; font-weight: 600; text-align: center; }
+    .ifone6 { margin: 0 auto; }
+    .one-img { margin-left: 40px !important; }
+    .bld-txt  { color: #ffffff; font-weight: 600; line-height:2.2 !important; margin: 0 auto 20px -26px; text-align: center; white-space: initial; width: 17em;}
+    .ifone6 { margin-top: 36%; }
+
+
+    .ic-js { margin-left:5px !important; margin-right:5px  !important; background-size:100% 100%; width:30px; height:30px; }
+    .ic-mongo { margin-left:5px  !important; margin-right:5px !important;  background-size:100% 100%; width:85px; height:30px; }
+    .ic-node {margin-left:5px  !important; margin-right: 5px  !important;  background-size:100% 100%; width:70px; height:30px; }
+    .ic-angular {margin-left: 5px !important; margin-right: 5px  !important;  background-size:100% 100%;  width:115px; height:30px; }
+    .ic-amazon { /*display:none;*/ margin-left: 5px !important; margin-right: 5px !important;  background-size:100% 100%; width:100px; height:30px;}
+    .ic-ps { margin-left:5px !important; margin-right: 5px !important;  background-size:100% 100%; width:30px; height:30px; }
+
+    .technology-icn > li { margin: 4px 13px !important; }
+
+    .technology-icn { white-space: normal; width:320px; margin-top:23px !important;}
+    .flipInX { margin-left: 15px; margin-right: 15px; }
+    a.go-about { font-size: 11px; font-weight: 100; padding-bottom: 2px !important; padding-top: 4px !important; padding-left: 7px; padding-right: 7px; }
+    .mobile-ifone6 { left: 21% !important; }
+    .larg-8 { margin-left:0 ; height:18px !important; width:18px !important;}
+    .tp-caption.lfb.lern.start { top: 360px !important; left:116px !important;}
+    .contct { top:89% !important; left: 112px !important; }
+    .tp-bullets { margin-bottom:0 !important}
+}
+
+
+@media screen and (min-width:480px) and (max-width:600px) {
+    .bld-txt { margin: -15px auto 20px 0px !important; line-height: 1.7 !important; }
+    .defn-lead { top: 143px !important; }
+    .ifone6 { margin-top: 42px;}
+    .h-width { margin-top:38% !important;}
+    #moving-text  {/* display:none ;*/}
+    .mobile-ifone6 { left: 27% !important; }
+    .tp-caption.lfb.lern.start { left: 197px !important; top: 254px !important;}
+    .h-width { line-height:2 !important; margin-top: 0 !important; width: 400px; word-wrap: initial; margin-left: 5px !important; }
+    .contct { left: 192px !important; top: 83% !important;}
+    .tp-bullets { margin-bottom:0 !important}
+    .technology-icn {margin-top:8px !important; margin-top: 35px !important; white-space: unset;  width: auto; }
+    .ic-js { margin-left:5px !important; margin-right:5px  !important; background-size:100% 100%; width:30px; height:30px; }
+    .ic-mongo { margin-left:5px  !important; margin-right:5px !important;  background-size:100% 100%; width:70px; height:25px; }
+    .ic-node {margin-left:5px  !important; margin-right: 5px  !important;  background-size:100% 100%; width:60px; height:25px; }
+    .ic-angular {margin-left: 5px !important; margin-right: 5px  !important;  background-size:100% 100%;  width:65px; height:25px; }
+    .ic-amazon { /*display:none;*/ margin-left: 5px !important; margin-right: 5px !important;  background-size:100% 100%; width:80px; height:27px;}
+    .ic-ps { margin-left:5px !important; margin-right: 5px !important;  background-size:100% 100%; width:30px; height:30px; }
+    .technology-icn > li { margin: -19px 8px 0 8px !important; }
+
+    /*Newly added css*/
+
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+
+    .ic-js { margin-left:5px !important; margin-right:5px  !important; background-size:100% 100%; width: 68px; height: 68px;  }
+    .ic-mongo { margin-left:5px  !important; margin-right:5px !important;  background-size:100% 100%; width: 250px; height: 67px;}
+    .ic-node {margin-left:5px  !important; margin-right: 5px  !important;  background-size:100% 100%;  width: 189px; height: 53px; }
+    .ic-angular {margin-left: 5px !important; margin-right: 5px  !important;  background-size:100% 100%; width: 298px; height:70px; }
+    .ic-amazon { /*display:none;*/ margin-left: 5px !important; margin-right: 5px !important;  background-size:100% 100%; width: 150px; height: 51px; }
+    .ic-ps { margin-left:5px !important; margin-right: 5px !important;  background-size:100% 100%;width: 72px; height: 71px; }
+
+    .h-width { color: #ffffff; font-size: 18px !important; font-weight: 600; line-height: 1.9 !important; margin-top: 25px !important; text-align: center;
+        white-space: normal; width: 450px; }
+
+    .technology-icn > li { margin: 4px 16px !important; }
+
+    .technology-icn { white-space: normal; width:692px; margin-top:23px !important;}
+    .tp-caption.lfb.lern.start { left: 315px !important; top: 800px !important; }
+    /*.ifone6 { display:none;}*/
+
+    .importantRule {  margin-left: 120px !important; }
+    .heading-border { height: 20px; width:18%; }
+    .ifone6 { display:none; }
+    .bld-txt { width:100% ; }
+    .mobile-ifone6 { top: 45% !important; margin-left: 19px; }
+    .h-width { width:490px; }
+
+}
+
+
+@media screen and (min-width:1023px) and (max-width:1100px) {
+
+    .importantRule {  margin-left: 120px !important; }
+    .heading-border { height: 25px; width:18%; }
+    .ifone6 { height: 480px !important; margin-left: 526px !important;  width: 235px !important;  top:-71%; }
+    .tp-caption.lfb.lern.start { left: 317px !important; top:470px !important;}
+    .mobile-ifone6 {top: 27% !important;  left: 13.5% !important; }
+
+    .technology-icn {margin-top:8px !important; margin-top: 35px !important; white-space: unset;  width: auto; }
+    .ic-js { margin-left:5px !important; margin-right:5px  !important; background-size:100% 100%; width:40px; height:40px; }
+    .ic-mongo { margin-left:5px  !important; margin-right:5px !important;  background-size:100% 100%; width:130px; height:50px; }
+    .ic-node {margin-left:5px  !important; margin-right: 5px  !important;  background-size:100% 100%; width:130px; height:40px; }
+    .ic-angular {margin-left: 5px !important; margin-right: 5px  !important;  background-size:100% 100%;  width:170px; height:50px; }
+    .ic-amazon { /*display:none;*/ margin-left: 5px !important; margin-right: 5px !important;  background-size:100% 100%; width:140px; height:45px;}
+    .ic-ps { margin-left:5px !important; margin-right: 5px !important;  background-size:100% 100%; width:40px; height:40px; }
+    .technology-icn > li { margin: 0px 16px 0 !important; }
+
+}
+
+
+
+
