@@ -3,7 +3,7 @@
 namespace Modules\Frontend\Controllers;
 
 
-
+use Phalcon\Mvc\View;
 use Modules\Frontend\Models\Users;
 
 class IndexController extends ControllerBase
@@ -17,4 +17,11 @@ class IndexController extends ControllerBase
             )
         );
     }
+    public function error404Action()
+    {
+        //$this->view->setTemplateBefore('404');
+        //$this->response->setStatusCode(404, 'Not Found');
+        //$this->view->render('404');
+    }
+
 }

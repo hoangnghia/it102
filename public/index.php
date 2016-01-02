@@ -33,6 +33,12 @@ try {
 			'controller' => 'index',
 			'action' => 'index'
 		));
+		$router->notFound(array(
+			'module' => 'frontend',
+			'controller' => 'index',
+			'action' => 'error404'
+		));
+		
 
 		return $router;
 	};

@@ -9,4 +9,10 @@ class IndexController extends ControllerBase
     {
 
     }
+    public function error404Action()
+    {
+        //$this->view->setTemplateBefore('404');
+        //$this->response->setStatusCode(404, 'Not Found');
+        //$this->view->render('404');
+    }
 }
